@@ -1,3 +1,3 @@
 define(function (require) {
-  require("./plugins//poc_plugin/index.js");
+  require("./plugins/poc_plugin/index.js");
 });
