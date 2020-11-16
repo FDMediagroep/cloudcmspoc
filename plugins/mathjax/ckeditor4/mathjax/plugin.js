@@ -157,7 +157,7 @@
 	 * @class CKEDITOR.plugins.mathjax
 	 */
 	CKEDITOR.plugins.mathjax = {};
-
+	CKEDITOR.config.mathJaxLib = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML';
 	/**
 	 * A variable to fix problems with `iframe`. This variable is global
 	 * because it is used in both the widget and the dialog window.
@@ -438,6 +438,8 @@
 		};
 	}
 } )();
+
+CKEDITOR.config.mathJaxLib = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML';
 
 /**
  * Sets the path to the MathJax library. It can be both a local resource and a location different than the default CDN.
